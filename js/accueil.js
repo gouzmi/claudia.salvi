@@ -1,3 +1,5 @@
+
+
 function openCate(evt) {
   var i, link;
 
@@ -5,7 +7,12 @@ function openCate(evt) {
   for (i = 0; i < link.length; i++) {
       link[i].className = link[i].className.replace(" active", "");
   }
-  evt.currentTarget.className += " active";
+  evt.currentTarget.className += " active";}
+
+function header(){
+      document.getElementById("defaultOpen").click();
+}
+
 
 
   $(window).on("load",function() {
@@ -20,8 +27,8 @@ function openCate(evt) {
           if ($(this).css("opacity")==0) {
             $(this).fadeTo(100,1);}
         } else { //object goes out of view (scrolling up)
-          if ($(this).css("opacity")==1) {
-            $(this).fadeTo(100,0);}
+          //if ($(this).css("opacity")==1) {
+            //$(this).fadeTo(100,0);}
         }
       });
     }).scroll(); //invoke scroll-handler on page-load
