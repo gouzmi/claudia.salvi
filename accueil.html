@@ -10,16 +10,17 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="js/accueil.js"></script>
   </head>
 
   <body>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-          <nav class=" container navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-            <div class="col-sm-3"><a href="#">Accueil</a></div>
-            <div class="col-sm-3"><a href="#">Services</a></div>
-            <div class="col-sm-3"><a href="#">Contact</a></div>
-            <div class="col-sm-3"><a href="#">A propos</a></div>
+          <nav class=" container-fluid navbar navbar-expand-sm navbar-dark fixed-top">
+            <div class="col-sm-3"><a class="link" href="#acc" onclick="openCate(event)" id="defaultOpen">Accueil</a></div>
+            <div class="col-sm-3"><a class="link" href="#ser" onclick="openCate(event)">Services</a></div>
+            <div class="col-sm-3"><a class="link" href="#con" onclick="openCate(event)">Contact</a></div>
+            <div class="col-sm-3"><a class="link" href="#pro" onclick="openCate(event)">À-propos</a></div>
           </nav>
         </div>
     </div>
@@ -29,7 +30,26 @@
           <h1 class="display-1">Claudia Sarvi</h1>
           <p>Spécialiste en nature morte</p>
       </div>
+      <div class="jumbotron col-sm-12">
+          <h1 class="display-1">Claudia Sarvi</h1>
+          <p>Spécialiste en nature morte</p>
+      </div>
+      <div class="jumbotron col-sm-12">
+          <h1 class="display-1">Claudia Sarvi</h1>
+          <p>Spécialiste en nature morte</p>
+      </div>
+      <div class="jumbotron col-sm-12">
+          <h1 class="display-1">Claudia Sarvi</h1>
+          <p>Spécialiste en nature morte</p>
+      </div>
+      <div class="jumbotron col-sm-12">
+          <h1 class="display-1">Claudia Sarvi</h1>
+          <p>Spécialiste en nature morte</p>
+      </div>
     </div>
 
   </body>
+  <script>
+    document.getElementById("defaultOpen").click();
+  </script>
 </html>
