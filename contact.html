@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Claudia Salvi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/accueil.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="js/accueil.js"></script>
+  </head>
+
+  <body onload="header();">
+
+    <div class="container-fluid">
+        <div class="row">
+          <nav class=" container-fluid navbar navbar-expand-sm navbar-dark fixed-top">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-2 part" ><span class="link" onclick="openCate(event)"><a href="accueil.html">Accueil</a></span></div>
+            <div class="col-sm-2 part" ><span class="link" onclick="openCate(event)"><a  href="#ser" >Services</a></span></div>
+            <div class="col-sm-2 part" ><span class="link" onclick="openCate(event)"><a  href="#pro" >Publications</a></span></div>
+            <div class="col-sm-2 part" ><span class="link" onclick="openCate(event)"><a  href="apropos.html" >À propos</a></span></div>
+            <div class="col-sm-2 part" ><span class="link" onclick="openCate(event)" id="defaultOpen"><a  href="contact.html" >Contact</a></span></div>
+            <div class="col-sm-1 part"></div>
+          </nav>
+        </div>
+    </div>
+
+    <div id="corps">
+
+      <div class="bgimg-1">
+        <div class="caption">
+          <span class="border">CONTACT</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container-fluid footer">
+      <div class="row bas">
+
+          <div class="col-sm-4 part"><a class="link" href="#con">Conditions générales</a></div>
+          <div class="col-sm-4 part"><a class="link" href="#con">Claudia Salvi ©</a></div>
+          <div class="col-sm-4 part"><a class="link" href="contact.html">Contact</a></div>
+
+      </div>
+    </div>
+
+  </body>
+
+</html>
