@@ -143,6 +143,7 @@ div a:hover
 .fond-1 .display-1{
   letter-spacing: 7px;
   font-weight: 200;
+  text-align: center;
 }
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
