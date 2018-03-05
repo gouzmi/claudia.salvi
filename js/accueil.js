@@ -31,3 +31,13 @@ function header(){
       });
     }).scroll();
   });
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "80%";
+    document.getElementById('menu').style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById('menu').style.backgroundColor = "";
+}

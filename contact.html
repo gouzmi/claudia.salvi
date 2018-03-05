@@ -16,19 +16,40 @@
 
   <body onload="header();">
 
-    <div class="container-fluid">
+<!-- HEADER -->
+    <div class="container-fluid header">
         <div class="row">
           <nav class=" container-fluid navbar navbar-expand-sm navbar-dark fixed-top">
             <div class="col-sm-1"></div>
-            <div class="col-sm-2 part" ><span class="link" onclick="openCate(event)"><a href="accueil.html">Accueil</a></span></div>
+            <div class="col-sm-2 part" ><span class="link" onclick="openCate(event)" id="defaultOpen"><a href="accueil.html">Accueil</a></span></div>
             <div class="col-sm-2 part" ><span class="link" onclick="openCate(event)"><a  href="#ser" >Services</a></span></div>
             <div class="col-sm-2 part" ><span class="link" onclick="openCate(event)"><a  href="#pro" >Publications</a></span></div>
             <div class="col-sm-2 part" ><span class="link" onclick="openCate(event)"><a  href="apropos.html" >À propos</a></span></div>
-            <div class="col-sm-2 part" ><span class="link" onclick="openCate(event)" id="defaultOpen"><a  href="contact.html" >Contact</a></span></div>
+            <div class="col-sm-2 part" ><span class="link" onclick="openCate(event)"><a  href="contact.html" >Contact</a></span></div>
             <div class="col-sm-1 part"></div>
           </nav>
         </div>
     </div>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="accueil.html">Accueil</a>
+      <a href="#">Services</a>
+      <a href="#">Publications</a>
+      <a href="apropos.html">À propos</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="container-fluid header2">
+        <div class="row">
+          <nav class=" container-fluid navbar navbar-expand-sm navbar-dark fixed-top">
+            <div class="bars" onclick="openNav()">
+                  <div class="bar1"></div>
+                  <div class="bar2"></div>
+                  <div class="bar3"></div>
+            </div>
+          </nav>
+        </div>
+    </div>
+<!-- HEADER -->
 
     <div id="corps">
 
