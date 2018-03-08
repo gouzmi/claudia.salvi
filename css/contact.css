@@ -5,35 +5,28 @@ body{
     background-image: url("../images/contact.jpg");*/
 }
 .bgimg-1 {
-  background-image: url("../images/contact.jpg");
-  min-height: 100vh;
+  background-image: url("../images/l_t-monnoyer2.jpg");
+  min-height: 80vh;
 }
 .bgimg-1{
   position: relative;
-  opacity: 0.65;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.caption {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  color: #000;
-}
 
-.caption span.border {
-  background-color: #111;
-  color: #fff;
-  padding: 18px;
-  font-size: 25px;
-  letter-spacing: 10px;
-}
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
     .bgimg-1, .bgimg-2, .bgimg-3 {
         background-attachment: scroll;
     }
+}
+#map {
+ height: 40vh;
+ width: 100%;
+ padding: 0px;
+}
+@media only screen and (min-device-width: 480px){
+
+}
