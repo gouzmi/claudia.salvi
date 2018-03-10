@@ -16,7 +16,7 @@ body{
   flex: 1;
 }
 .footer{
-  height: 85px;
+  height: 75px;
   display: flex;
   background-color: #26A69A;
   opacity: 0.9;

@@ -6,7 +6,7 @@ body{
 }
 .bgimg-1 {
   background-image: url("../images/l_t-monnoyer2.jpg");
-  min-height: 80vh;
+  min-height:35vh;
 }
 .bgimg-1{
   position: relative;
@@ -26,6 +26,9 @@ body{
  height: 40vh;
  width: 100%;
  padding: 0px;
+}
+.map{
+  padding: 0
 }
 @media only screen and (min-device-width: 480px){
 
