@@ -15,6 +15,10 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
+.contact{
+  margin-top:2%;
+  margin-bottom:2%;
+}
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
@@ -23,7 +27,8 @@ body{
     }
 }
 #map {
- height: 40vh;
+ margin: 0% 0% 5% 0% ;
+ height: 50vh;
  width: 100%;
  padding: 0px;
 }
