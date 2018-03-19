@@ -1,12 +1,7 @@
-body{
-    /*background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url("../images/contact.jpg");*/
-}
+
 .bgimg-1 {
   background-image: url("../images/l_t-monnoyer2.jpg");
-  min-height:35vh;
+  min-height:60vh;
 }
 .bgimg-1{
   position: relative;
@@ -14,11 +9,16 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .contact{
-  margin-top:2%;
-  margin-bottom:2%;
+  min-height:40vh;
+  display: flex;
+  align-items: center;
 }
+
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
@@ -37,4 +37,7 @@ body{
 }
 @media only screen and (min-device-width: 480px){
 
+}
+.card:hover i,.card:hover h5{
+	color: #26A69A;
 }
