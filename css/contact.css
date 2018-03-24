@@ -1,7 +1,7 @@
 
 .bgimg-1 {
   background-image: url("../images/l_t-monnoyer2.jpg");
-  min-height:60vh;
+  min-height:35vh;
 }
 .bgimg-1{
   position: relative;
@@ -40,4 +40,14 @@
 }
 .card:hover i,.card:hover h5{
 	color: #26A69A;
+}
+
+#contact{
+    min-height:25vh;
+    display: flex;
+    align-items: center;
+}
+#contact h1{
+  letter-spacing: 7px;
+  text-align: center;
 }
