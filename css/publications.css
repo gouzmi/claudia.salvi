@@ -1,0 +1,57 @@
+.fond_table{
+  background-image: url("../images/nature_morte_table.jpg");
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+}
+
+.contenu{
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.joindre{
+  display: flex;
+  align-items: center;
+}
+
+#publication{
+    min-height:20vh;
+    display: flex;
+    align-items: center;
+}
+#publication h1{
+  letter-spacing: 7px;
+  text-align: center;
+}
+
+.container p{
+  text-align: justify;
+}
+
+.fond_table2{
+  background-image: url("../images/nature_morte_table.jpg");
+  min-height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+}
+
+.joindre{
+  opacity: 0.8;
+}
