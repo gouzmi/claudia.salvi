@@ -16,9 +16,9 @@ body{
   flex: 1;
 }
 .footer{
-  height: 75px;
+  height: 85px;
   display: flex;
-  background-color: #26A69A;
+  background-color: #455A64;
   opacity: 0.9;
   margin-bottom: 0;
   padding-bottom: 0;
@@ -36,7 +36,7 @@ nav
   padding: 50px;
   justify-content: center;
   align-items: center;
-  background-color: #26A69A;
+  background-color: #959F97;
   line-height: 1;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }

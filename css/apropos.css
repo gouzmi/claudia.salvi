@@ -1,7 +1,7 @@
 
 .fond {
-  background-image: url("../images/nature_morte_poire.jpg");
-  min-height: 38vh;
+  background-image: url("../images/monnoyer4.jpg");
+  min-height: 40vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,8 +37,8 @@
 }
 
 .fond2 {
-  background-image: url("../images/nature_morte_poire.jpg");
-  min-height: 20vh;
+  background-image: url("../images/monnoyer.jpg");
+  min-height: 30vh;
   display: flex;
   justify-content: center;
   align-items: center;
