@@ -59,3 +59,35 @@
 .joindre{
   opacity: 0.8;
 }
+
+.bgimg-1 {
+  background-image: url("../images/l_t-monnoyer2.jpg");
+  min-height:30vh;
+}
+.bgimg-1{
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titre{
+    min-height:10vh;
+    display: flex;
+    align-items: center;
+    margin-top: 5vh;
+    margin-bottom: 4vh;}
+.titre h1{
+  letter-spacing: 7px;
+  text-align: left;
+  font-size: 2.2rem;
+}
+@media only screen and (max-device-width: 480px){
+  .titre h1{
+    font-size: 1.5rem;
+  }
+}
